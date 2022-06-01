@@ -341,7 +341,7 @@ thre.beta = Vectorize(thre.beta)
 #initialize parameters
 ini_para1<-function(time,delta,z,qn){
   
-  vfit <- survival::coxph(Surv(time,delta) ~z)
+  vfit <- survival::coxph(survival::Surv(time,delta) ~z)
   constant_beta<-vfit$coef
   alph=abs(constant_beta/2)
   p=ncol(z)
