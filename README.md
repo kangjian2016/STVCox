@@ -1,4 +1,4 @@
-# R Rpackage STVCox
+# R package STVCox
 
 ## Overview 
 This package implements the parameter estimation and statistical inferences on sparse time-varying effects in survival models based on a soft-thresholding approach.  
